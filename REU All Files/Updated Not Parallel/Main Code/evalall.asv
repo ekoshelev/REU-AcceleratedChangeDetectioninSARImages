@@ -1,0 +1,67 @@
+display('original'); %1
+tensetsevalsar;
+originalresults=results;
+
+display('three layer'); %2
+threelayereval;
+threelayerresults=results;
+
+display('tenth'); %3
+tenthsareval;
+tenthresults=results;
+
+display('eleventh'); %4
+eleventhsareval;
+eleventhresults=results;
+
+display('smalleriter');%5
+smalleritereval;
+smalleriterresults=results;
+
+display('bigbatch');%6
+bigbatcheval;
+bigbatchresults=results;
+
+display('fourth 3 layer');%7
+fourthsarevalmini;
+fourresults=results;
+
+display('fourth 5 layer');%8
+fourthsarevalall;
+fourthresults=results;
+
+display('hundred iterations');
+hunditereval;
+hunditerresults=results;
+
+display('sar gbdn');
+gbdneval;
+gbdnresults=results;
+
+display('test sar gbdn');
+testsargeval;
+gbdntestresults=results;
+
+display('second sorted');
+evalallsorted;
+sortedresults=results;
+
+display('test networks');
+testsareval;
+testresults=results;
+
+display('big set');
+evalallset;
+allresults=results;
+
+display('twenty set small steps');
+twentyseteval;
+twentysmallresults=results;
+
+display('two hund iter small steps');
+twohunditereval;
+twentysmallresults=results;
+
+display('two hund iter');
+twohunditersareval;
+twentysmallresults=results;

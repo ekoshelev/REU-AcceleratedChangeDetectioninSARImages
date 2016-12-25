@@ -1,0 +1,11 @@
+results= [];
+[resultstemp] = gausevalSAR('fourlayersargbdbn100000.mat');
+results= [results; resultstemp];
+[resultstemp] = gausevalSAR('sixlayersargbdbn100000.mat');
+results= [results; resultstemp];
+[resultstemp] = gausevalSAR('smallstepssargbdbn100000.mat');
+results= [results; resultstemp];
+[resultstemp] = gausevalSAR('onehunditersargbdbn600000.mat');
+results= [results; resultstemp];
+[resultstemp] = gausevalSAR('twohunditersargbdbn100000.mat');
+results= [results; resultstemp];

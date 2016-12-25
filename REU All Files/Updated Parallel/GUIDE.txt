@@ -1,0 +1,62 @@
+testAllSAR for results replicated from paper.
+
+If you want to create features and labels, go to MainCode<convertSAR.
+
+If you want to sort/filter preexisting features and labels, go to MainCode<makenewlabels.
+
+If you want to create networks, go to MainCode<trainall. Training labels and features can be found in
+the folder Training Data, with a readme file describing different sets of labels and features.
+
+If you want to make features for a test image, use the function [allfeaturestest] = testimgconvert(BeforeImage,AfterImage).
+Sample test image features can be found in Test Data>Test Features.
+
+If you want to test specific networks and images with a ground truth image, 
+go to TestData<test sar images< testAllSAR.
+
+If you want to test all the networks that are pretrained (in the networks folder you can find many folders and
+readme files describing different networks), go to TestData<test sar images<evalall. To change the image you 
+must go to evalSAR and load in features,images,and ground truth. Thresholds have yet to be implemented for this, as
+they change with the image.
+
+If you want to test different levels of speckle noise in artificial images, go to TestData<experiment 1<testSpeckleIntensity.
+
+THE FOLLOWING REQUIRE THE IMAGE PROCESSING TOOLBOX:
+If you want to test different types of noise in artificial images normalized, go to TestData<experiment 2<noiseTest.
+
+If you want to test different types of noise in artificial images with the images normalized, 
+go to TestData<experiment 2<varianceTest.
+
+If you want to test different types of noise in artificial images with the images not normalized, 
+go to TestData<experiment 2<varianceTestIndependent.
+
+Folders:
+Main Code:
+Contains the code to create features and labels for images and train networks.
+
+Networks:
+Many folders of different sets of networks with different parameters. The number at the end of each
+indicates the size of the training set, bbdbn indicates a bernoulli-bernoulli RBM, gbdbn indicates
+a gaussian-bernoulli RBM. Each folder has a readme file describing the structure of the networks 
+trained as well as the parameters used.
+
+Test Data:
+Includes all the code to test the networks, as well as test features and labels for sar images as 
+well as images used for testing.
+
+Training Data:
+Contains all the data, features, and labels used to train  the networks.
+
+Results:
+Includes excel charts for different networks prediscovery of the threshold, as well as results of
+the experiments and a written word document describing the results. 
+
+Neural Toolbox:
+The neural network toolbox created by Masayuka Tanaki that was used in this project.
+
+Preclassification:
+Preclassification code for each set of images.
+
+All Images:
+All images used for testing and training during the project.
+
+

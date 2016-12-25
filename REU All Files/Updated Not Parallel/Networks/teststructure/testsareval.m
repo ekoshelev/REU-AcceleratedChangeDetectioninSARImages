@@ -1,0 +1,17 @@
+results= [];
+[resultstemp] = evalSAR('firsttestnormsarbbdbn100000.mat');
+results= [results; resultstemp];
+[resultstemp] = evalSAR('secondtestnormsarbbdbn100000.mat');
+results= [results; resultstemp];
+[resultstemp] = evalSAR('thirdtestnormsarbbdbn100000.mat');
+results= [results; resultstemp];
+[resultstemp] = evalSAR('fourlayernormsarbbdbn100000.mat');
+results= [results; resultstemp];
+[resultstemp] = evalSAR('sixlayernormsarbbdbn100000.mat');
+results= [results; resultstemp];
+[resultstemp] = evalSAR('smallstepsnormsarbbdbn100000.mat');
+results= [results; resultstemp];
+[resultstemp] = evalSAR('onehunditernormsarbbdbn600000.mat');
+results= [results; resultstemp];
+[resultstemp] = evalSAR('twohunditernormsarbbdbn100000.mat');
+results= [results; resultstemp];

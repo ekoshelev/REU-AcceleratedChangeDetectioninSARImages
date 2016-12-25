@@ -1,0 +1,1 @@
+[50 250 200 100 1],batch 100,iter 100,original labels
