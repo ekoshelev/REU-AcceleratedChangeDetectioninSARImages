@@ -22,3 +22,6 @@ providing a novel framework for the change detection of
 complicated SAR images. We conduct numerous
 experiments on artificial images with added speckle noise
 and real-world synthetic aperture radar images.
+
+Please cite accordingly:
+Frank Liao, Elizabeth Koshelev, and Malcolm Milton. "Accelerated Change Detection in Synthetic Aperture Radar Images through Deep Learning." In Proceedings of the 2017 IEEE the International Conference on Computing, Networking, and Communications (ICCNC), January 2017.
